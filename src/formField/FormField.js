@@ -3,6 +3,7 @@ import React from "react";
 const FormField = (props) => {
   return (
     <div className="field">
+      <form>
       <label className="label">{props.label}</label>
       Name 
       <hr/>
@@ -11,6 +12,10 @@ const FormField = (props) => {
       Email
       <hr/>
       <input label="Email" type="email" placeholder="eg alexsmith@gmail.com" />
+      Password
+      <hr/>
+      <input label="Password" type="password" placeholder="********" />
+      </form>
     </div>
   );
 };
