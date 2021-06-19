@@ -4,6 +4,7 @@ import NavBar from '../src/navbar/Navbar'
 import FormField from '../src/formField/FormField'
 import CoolButton from '../src/CoolButton/CoolButton'
 import Signup from '../src/signup/Signup'
+import Container from '../src/container/Container'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <NavBar/>
       <FormField/>
       {/* <CoolButton/> */}
+      <Container/>
     </div>
 )};
 
