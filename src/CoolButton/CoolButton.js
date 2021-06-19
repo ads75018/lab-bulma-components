@@ -1,15 +1,24 @@
 import React from "react";
 
-function CoolButton() {
+function CoolButton(props) {
+  let finalClass = "button " + props.className; // "toto tata"
+
+  if (props.isSmall) {
+    finalClass += " is-small";
+  }
+  if (props.isDanger) {
+    finalClass += " is-danger";
+  }
+  if (props.isSuccess) {
+    finalClass += " is-success";
+  }
+  if (props.isRounded) {
+      finalClass += " is-rounded"
+  }
+
   return (
     <div>
-      <button className="button is-rounded my-class is-danger is-small">
-        Singup
-      </button>
-      <button className="button is-small is-success is-rounded">
-        Login
-      </button>
-
+      <button className={finalClass}>Signup</button>
     </div>
   );
 }

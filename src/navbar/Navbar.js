@@ -41,7 +41,7 @@ const NavBar = () => {
                 <a href="#" className="button is-primary">
                   Signup
                 </a> */}
-                <CoolButton/>
+                <CoolButton isSmall isDanger isSuccess isRounded className="toto tata"/>
               </p>
             </div>
           </div>

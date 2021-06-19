@@ -6,14 +6,17 @@ const FormField = (props) => {
       <form>
       <label className="label">{props.label}</label>
       Name 
-      <hr/>
+      <br/>
       <input label="Name" type="text" placeholder="eg Alex Smith" />
-      <hr />
+      <br/>
+      <br/>
       Email
-      <hr/>
+      <br/>
       <input label="Email" type="email" placeholder="eg alexsmith@gmail.com" />
+      <br/>
+      <br/>
       Password
-      <hr/>
+      <br/>
       <input label="Password" type="password" placeholder="********" />
       </form>
     </div>
